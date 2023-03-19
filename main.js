@@ -49,6 +49,7 @@ function showMoreBtn (i) {
 
     let showMoreDiv = document.createElement('div');
     let displayMore = document.createElement('button');
+    let projectTitle = document.createElement('h2');
 
      //Assign classes
 
@@ -57,11 +58,12 @@ function showMoreBtn (i) {
 
     //Assign Values
     displayMore.innerHTML = 'Show more';
+    projectTitle.innerHTML= titles[i];
 
 
     //Insert to DOM
 
-    showMoreDiv.append(displayMore);
+    showMoreDiv.append(projectTitle, displayMore);
     cardArray[i].append(showMoreDiv);
 
     //Add event listeners
