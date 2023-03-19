@@ -1,0 +1,77 @@
+/* Universal Styles */
+
+body {
+    background-color: #F4F4F6;
+    color: #000000;
+}
+
+h1 {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    padding: 3vw;
+    font-size: 8vw;
+}
+
+p {
+    font-family: 'Catamaran', sans-serif;
+}
+
+
+/* Header */ 
+
+header {
+    background-color: #9999A1;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+/* Cards */
+
+.container {
+    margin-top: 15vw;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+.card {
+    width: 40vw;
+}
+
+.card img {
+    width: 40vw;
+    margin-top: 5vw;
+}
+
+.see-more {
+    width: 40vw;
+    height: 20vw;
+    background-color: #E6E6E9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.more-btn {
+    background-color:#E4E6C3;
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 700;
+    font-size: 2vw;
+    cursor: pointer;
+    border-radius: 8%;
+    padding: 1vw 2vw;    
+}
+
+.see-less {
+    width: 36vw;
+    background-color: #E6E6E9;
+    padding: 2vw;
+}
+
+.see-less a {
+    color: #000000;
+    padding: 3vw;
+}
+
