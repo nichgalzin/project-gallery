@@ -53,10 +53,10 @@ function showMoreBtn (i) {
      //Assign classes
 
     displayMore.classList.add('more-btn')
-    showMoreDiv.classList.add('see-more')
+    showMoreDiv.classList.add('show-more')
 
     //Assign Values
-    displayMore.innerHTML = 'See more';
+    displayMore.innerHTML = 'Show more';
 
 
     //Insert to DOM
@@ -72,7 +72,7 @@ function showMoreBtn (i) {
 }
 
 
-// Function to make and insert cards
+// Function to make imgages and  to insert cards
 
 function makeCards() {
     for (let i = 0; i < values.length; i++) {
@@ -109,7 +109,7 @@ function showDescription(i) {
 
     //Assign values
 
-    showLessDiv.classList.add('see-less');
+    showLessDiv.classList.add('show-less');
     showLess.innerHTML = 'Show less';
     showLess.classList.add('less-btn')
 
