@@ -1,23 +1,27 @@
 const projects = {
     'Hobby page' : {
-        description : 'A page dedicated to the appreciation and study of green wood working. From the techniques  of carving, to what wood and tools to use this a short introduction to the craft. It’s therapeutic and fills your life with beautiful and  handmade objects!',
+        description : 'A page dedicated to the appreciation and study of green wood working. From the techniques  of carving, to what wood and tools to use this a short introduction to the craft. It’s therapeutic and fills your life with beautiful handmade objects!',
         imgSrc : './resources/Images/Screenshoots/hobby-page-screenshot.png',
-        link : 'https://nichgalzin.github.io/greenwood/'
+        link : 'https://nichgalzin.github.io/greenwood/',
+        alt : 'A screenshoot of hobby page about greenwood working.'
     },
     'Movie Data' : {
-        description : 'A practice in object manipulation and user interactivity in JavaScript. This site lets you see in fun facts about your favourite movies and lets you post new posters and facts to the wall.',
+        description : 'A practice in object manipulation and user interactivity in JavaScript. This site lets you see in fun facts about your favourite movies and lets you add new posters and facts to the wall.',
         imgSrc : './resources/Images/Screenshoots/movie-data-screenshot.png',
-        link : 'https://nichgalzin.github.io/movie-data/'
+        link : 'https://nichgalzin.github.io/movie-data/',
+        alt : 'A screenshoot of page displaying movie posters.'
     },
     'Website' : {
         description : 'An autobiographical website about my background as a performing circus artist and teacher and my interest and progress so far retraining to be a developer. Built with responsive design in mind and a start to my understanding of what are good development principles for accessibility.',
         imgSrc : './resources/Images/Screenshoots/website-screenshot.png',
-        link : 'https://nichgalzin.github.io/about-me/'
+        link : 'https://nichgalzin.github.io/about-me/',
+        alt : 'A screenshot of a website about author Nich Galzin.'
     },
     'Game' : {
         description : 'A simple game for a simple blob! Dodge the spawning blocks keep away from the edge to stay alive for as long as you can. What’s you high score? My first experiment working with the html canvas element and using js for animation.',
         imgSrc : './resources/Images/Screenshoots/blob-survival-screenshot.png',
-        link : 'https://nichgalzin.github.io/blob-survival/'
+        link : 'https://nichgalzin.github.io/blob-survival/',
+        alt : 'A screenshot of game website.'
     }
 }
 
@@ -28,6 +32,7 @@ const values = Object.values(projects);
 const description = values.map(el => el.description);
 const imgSrc = values.map(el => el.imgSrc);
 const links = values.map(el => el.link);
+const alt =values.map(el => el.alt);
 const cardArray = [];
 
 // Dom Access
@@ -87,6 +92,7 @@ function makeCards() {
         // Assign values
 
         img.src = imgSrc[i];
+        img.alt = alt[i];
 
         // Add to DOM
         imgDiv.append(img);

@@ -152,23 +152,24 @@ header {
     }
 
     .container {
-        margin-top: 10vw;
+        margin-top: 8vw;
     }
 
     .card {
-        width: 28vw;
+        width: 25vw;
+        margin: 0 1vw;
     }
 
     .card img {
-        width: 28vw;
+        width: 25vw;
     }
 
     .show-more {
-        width: 28vw;
+        width: 25vw;
     }
 
     .show-less {
-        width: 24vw;
+        width: 21vw;
     }
 
     .less-btn, .more-btn {
