@@ -26,7 +26,7 @@ By the time I got to it I decided I wanted more JavaScript practice so I created
 This helped me solidify all DOM manipulation learing I did with js, especially from the Movie Data project. For a future challenge would like to access all the data I stored 
 in the object directly instead of converting like into an array as I did in both projects.
 
-Fonts and Colour Palette:
+## Fonts and Colour Palette:
 
 See the colour palette I used for this project [here](https://coolors.co/palette/000000-66666e-9999a1-e6e6e9-f4f4f6)
 
